@@ -1,0 +1,10 @@
+services:
+  jenkins-backup:
+    build: .
+    image: jtprogru/backup-jenkins-jobs:latest
+    environment:
+      JENKINS_SERVER: ${JENKINS_SERVER}
+      JENKINS_USER: ${JENKINS_USER}
+      JENKINS_API_KEY: ${JENKINS_API_KEY}
+    volumes:
+      - ./jenkins_jobs:/backup

@@ -1,0 +1,6 @@
+.git
+.venv
+.serena
+jenkins_jobs/
+*.md
+compose.yaml

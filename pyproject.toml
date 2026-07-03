@@ -1,0 +1,12 @@
+[project]
+name = "backup-jenkins-jobs"
+version = "0.1.0"
+description = "Скрипт для автоматического резервного копирования job'ов из Jenkins"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "requests>=2.32",
+]
+
+[tool.uv]
+package = false

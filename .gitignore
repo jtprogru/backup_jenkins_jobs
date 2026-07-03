@@ -1,0 +1,4 @@
+.venv/
+jenkins_jobs/
+__pycache__/
+.env
